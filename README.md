@@ -24,11 +24,11 @@ Welcome to the **Plant Disease Predictor**, an AI-powered system that helps farm
 
 ### ✅ Instant Disease Prediction Output
 
-<img src="image3.png" width="500"/>
+<img src="image 3.png" width="500"/>
 
 ### ✅ Confidence Scores for Each Class
 
-<img src="image4.png" width="500"/>
+<img src="image 4.png" width="500"/>
 
 ### ✅ Dashboard View with Prediction History
 
