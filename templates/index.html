@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Disease Detection</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e8f5e9;
+    }
+    .header {
+      background-color: #04380b;
+      color: white;
+      padding: 50px;
+      text-align: center;
+    }
+    .btn-custom {
+      background-color: #04380b;
+      color: white;
+      font-weight: bold;
+    }
+    .plant-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .plant-card {
+      text-align: center;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .plant-card img {
+      max-width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .plant-card h5 {
+      margin-top: 10px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <div class="header">
+    <h1>Welcome to Plant Disease Detection 🍂</h1>
+    <p>Detect plant diseases and get recommendations for healthy plant growth.</p>
+  </div>
+
+  <!-- Plant List Section -->
+  <div class="container mt-5">
+    <h2 class="text-center">Plants and Fruits that can be detected for diseases:</h2>
+    <div class="plant-grid">
+      <div class="plant-card">
+        <img src="static/images/apple.jpg" alt="Apple">
+        <h5>Apple</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/blueberry.jpg" alt="Blueberry">
+        <h5>Blueberry</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/cherry.jpg" alt="Cherry">
+        <h5>Cherry</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/corn.jpg" alt="Corn">
+        <h5>Corn</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/grape.jpg" alt="Grape">
+        <h5>Grape</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/orange.jpg" alt="Orange">
+        <h5>Orange</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/peach.jpg" alt="Peach">
+        <h5>Peach</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/pepperbell.jpg" alt="Pepper Bell">
+        <h5>Pepper Bell</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/potato.jpg" alt="Potato">
+        <h5>Potato</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/raspberry.jpg" alt="Raspberry">
+        <h5>Raspberry</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/soybean.jpg" alt="Soybean">
+        <h5>Soybean</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/squash.jpg" alt="Squash">
+        <h5>Squash</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/strawberry.jpg" alt="Strawberry">
+        <h5>Strawberry</h5>
+      </div>
+      <div class="plant-card">
+        <img src="static/images/tomato.jpg" alt="Tomato">
+        <h5>Tomato</h5>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI Engine Button -->
+  <div class="container mt-5 text-center">
+    <a href="/ai-engine" class="btn btn-custom btn-lg">Go to AI Engine</a>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
