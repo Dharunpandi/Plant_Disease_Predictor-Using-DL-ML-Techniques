@@ -20,7 +20,7 @@ Welcome to the **Plant Disease Predictor**, an AI-powered system that helps farm
 
 ### ✅ Upload a Leaf Image to Detect Disease
 
-<img src="image2.png" width="500"/>
+<img src="image 2.png" width="500"/>
 
 ### ✅ Instant Disease Prediction Output
 
